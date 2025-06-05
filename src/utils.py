@@ -1,5 +1,6 @@
-from pyspark.sql import SparkSession
+from pyspark.sql import DataFrame
 from pyspark.sql.connect.dataframe import DataFrame as ConnectDataFrame
+from pyspark.sql import functions as spf
 
 
 def check_key_cols(

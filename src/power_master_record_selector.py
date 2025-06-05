@@ -3,7 +3,7 @@ from typing import ClassVar
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql.connect.dataframe import DataFrame as ConnectDataFrame
 from pyspark.sql.connect.session import SparkSession as ConnectSparkSession
-from src.master_record_selector import MasterRecordSelector
+from .master_record_selector import MasterRecordSelector
 
 
 @dataclass

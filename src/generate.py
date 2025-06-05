@@ -4,8 +4,8 @@ from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql.connect.dataframe import DataFrame as ConnectDataFrame
 from pyspark.sql.connect.session import SparkSession as ConnectSparkSession
 from splink import DuckDBAPI, Linker, SettingsCreator
-from master_record_selector import MasterRecordSelector
-from src import utils
+from .master_record_selector import MasterRecordSelector
+from . import utils
 
 
 @dataclass
